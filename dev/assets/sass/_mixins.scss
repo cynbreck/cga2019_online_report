@@ -1,0 +1,59 @@
+@mixin transition($property, $duration: 0.3s, $timing-function: ease-in-out, $delay: 0s) {
+	transition: $property $duration $timing-function $delay;
+	
+}
+
+@mixin flex-div($flow, $justify, $align, $wrap: wrap) {
+	//children need "flex: flex-grow flex-shrink flex-basis(auto)"
+	display: flex;
+	flex-direction: $flow; //row, row-reverse, column, column-reverse
+	justify-content: $justify; //flex-start, flex-end, center, space-between, space-around
+	align-items: $align; //flex-start, flex-end, center, baseline, stretch
+	flex-wrap: $wrap; //wrap, nowrap, wrap-reverse
+}
+
+@mixin flex-center() {
+	@include flex-div(row, center, center, nowrap);
+}
+
+
+// =========================================================================
+//
+//  PRECISE CONTROL OVER RESPONSIVE TYPOGRAPHY FOR SASS
+//  ---------------------------------------------------
+//  Indrek Paas @indrekpaas
+//
+//  Inspired by Mike Riethmuller's Precise control over responsive typography
+//  http://madebymike.com.au/writing/precise-control-responsive-typography/
+//
+//  `strip-unit()` function by Hugo Giraudel
+//
+//  31.03.2016 Remove redundant parenthesis from output
+//  02.10.2015 Add support for multiple properties
+//  24.04.2015 Initial release
+//
+// =========================================================================
+
+@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+	& {
+		@each $property in $properties {
+			#{$property}: $min-value;
+		}
+
+		@media screen and (min-width: $min-vw) {
+			@each $property in $properties {
+				#{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * (100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)});
+			}
+		}
+
+		@media screen and (min-width: $max-vw) {
+			@each $property in $properties {
+				#{$property}: $max-value;
+			}
+		}
+	}
+}
+
+@function strip-unit($value) {
+	@return $value / ($value * 0 + 1);
+}

@@ -1,0 +1,186 @@
+// ********* READERS GUIDE ******** //
+
+
+.readers-guide-container {
+	background-color: transparent;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 80vh;
+	position: fixed;
+	z-index: 200;
+	transform: translateY(72vh);
+	transition: ease .3s transform;
+
+	&.is-open {
+		transform: translateY(0vh);
+
+		.readers-guide-heading .guide-toggle {
+			svg {
+				transform: rotate(45deg);
+			}
+		}
+	}
+
+	&.bump {
+		transform: translateY(70vh);
+	}
+
+}
+
+.readers-guide-heading {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	width: fit-content;
+	background-color: $gray1;
+	padding: $spacing/4;
+	border-top: solid 1px $gray3;
+	border-right: solid 1px $gray3;
+	border-left: solid 1px $gray3;
+
+	.section-heading {
+		text-align: center;
+		padding: $spacing/4;
+		cursor: pointer;
+		margin: 0;
+	}
+
+	.guide-toggle {
+		padding: $spacing/6;
+
+		svg {
+			@include flex-center();
+		}
+	}
+}
+
+.readers-guide-content {
+	background-color: $gray1;
+	height: 100%;
+	width: 100%;
+	overflow: scroll;
+
+	@media screen and (min-width: 900px) {
+		display: flex;
+	}
+
+	@media screen and (min-width: 1200px) {
+
+	}
+	
+}
+
+.credits {
+	padding: $spacing 0;
+	width: 80%;
+	margin: 0 auto $spacing auto;
+
+	@media screen and (min-width: 900px) {
+		margin: $spacing $spacing*2;
+		width: 40%;
+		overflow: scroll;
+	}
+
+	@media screen and (min-width: 1200px) {
+		margin: $spacing $spacing*2;
+		width: 50%;
+
+	}
+}
+	
+.accordion-wrapper {
+	height: 100%;
+	width: 80%;
+	margin: $spacing*2 auto 0 auto;
+	overflow: scroll;
+
+	@media screen and (min-width: 900px) {
+		margin: $spacing*2;
+	}
+	
+	@media screen and (min-width: 1200px) {
+		margin: $spacing*2;
+	}
+}
+
+.accordion-item {
+	border-top: solid 1px $gray4;
+
+	&.active {
+
+		.accordion-item-heading .accordion-arrow {
+			transform: rotate(0deg);
+			transition: ease .3s transform;
+		}
+
+		.accordion-item-content {
+			transition: ease .3s all;
+			animation-name: fadeIn;
+			animation-duration: .6s;
+			animation-fill-mode: both;
+			will-change: transform;
+			padding: $spacing/2 $spacing $spacing*2 $spacing;
+		}
+	}
+}
+
+.accordion-item-heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: $spacing/4;
+	cursor: pointer;
+
+	>div {
+		display: flex;
+	}
+
+	.accordion-arrow {
+		@include flex-center();
+		transform: rotate(-180deg);
+		transition: ease .3s transform;
+
+	}
+}
+
+.accordion-item-title {
+	font-weight: $book;
+	text-transform: uppercase;
+}
+
+.accordion-item-content {
+
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+.social-links {
+	display: flex;
+	justify-content: center;
+	margin: $spacing 0;
+}
+
+.social-links>div {
+	$padding: $spacing/2;
+	margin: 0 $spacing;
+}

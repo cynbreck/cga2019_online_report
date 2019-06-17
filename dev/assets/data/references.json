@@ -1,0 +1,149 @@
+{
+	"references": [
+		{
+			"id": "ref-rg1",
+			"marker": "1",
+			"html": "Multiple data sources are available providing estimates of public sector spending on commodities by both donors and governments. In some cases, data sources overlap (e.g. multiple estimates for the same country and year); however, these estimates frequently don’t match. Generally, we look at an average of all the available data (multiple sources plus multiple years of data). However, in some cases, some data was excluded in favor of other data deemed more reliable. "
+		},
+		{
+			"id": "ref-rg2",
+			"marker": "2",
+			"html": "China and Venezuela&mdash;both of which are categorized as upper-middle-income countries&mdash;are not included in our analysis. Three countries (Micronesia, Kosovo, and American Samoa) are included in our totals; however, no estimates of contraceptive use are available for these countries, so they do not contribute to the estimates. However, given the relatively small sizes of these countries populations, their exclusion is unlikely to impact the aggregate results."
+		},
+		{
+			"id": "ref-rg3",
+			"marker": "3",
+			"html": "The World Bank segments countries into four income groups based on their Gross National Income (GNI) per capita. For their 2018 classifications, countries are grouped as follows: low-income &lt;$995, lower-middle-income $996&ndash;$3,895, upper-middle-income $3,896&ndash;12,055, high-income &gt;$12,055."
+		},
+		{
+			"id": "ref-rg4",
+			"marker": "4",
+			"html": "FP2020. <a href=“http://progress.familyplanning2020.org/“>Catalyzing Collaboration (2017-2018).</a>"
+		},
+		{
+			"id": "ref-rg5",
+			"marker": "5",
+			"html": "Based on: (1) Mark Wheldon, Vladim&iacute;ra Kantorov&aacute;, Philipp Ueffing and Aisha N. Z. Dasgupta (2018). Methods for estimating and projecting key family planning indicators among all women of reproductive age. United Nations, Department of Economic and Social Affairs, Population Division, Technical Paper No. 2. New York: United Nations; (2) United Nations, Department of Economic and Social Affairs, Population Division (2017). World Population Prospects: The 2017 Revision; (3) United Nations, Department of Economic and Social Affairs, Population Division (2018). World Contraceptive Use by Marital Status and Age 2018."
+		},
+		{
+			"id": "ref-rg6",
+			"marker": "6",
+			"html": "The Family Planning Estimation Tool (FPET) was designed to produce annual estimates of the contraceptive prevalence rate (CPR) and other indicators using statistical modeling that incorporates survey data and service statistics. For more information, see <a href=“http://track20.org/download/pdf/Track20%20Technical%20Briefs/english/Technical%20Brief_FPET%20(2015%2004%2013).pdf”>Technical Brief: Family Planning Estimation Tool.</a>"
+		},
+		{
+			"id": "ref-rg7",
+			"marker": "7",
+			"html": "United Nations, Department of Economic and Social Affairs, Population Division (2018). World Contraceptive Use 2018."
+		},
+		{
+			"id": "ref-rg8",
+			"marker": "8",
+			"html": "For the purpose of this analysis all non-public sources are classified as private. This includes a small number of sources such as shops and acquaintances that may not otherwise be considered private sector."
+		},
+		{
+			"id": "ref-rg9",
+			"marker": "9",
+			"html": "These three organizations shared detailed data related to services provided and products distributed by country and channel. We are grateful for them sharing both this data, and their expertise in order to make this new analysis possible. "
+		},
+		{
+			"id": "ref-rg10",
+			"marker": "10",
+			"html": "Data was removed for delivery channels likely being picked up under &ldquo;public sector&rdquo; (e.g. mobile outreach services provided within public sector clinics and sales of commodities to governments), and for countries where programs are largely commercial, meaning little or no donor subsidy was attached to the provision (e.g. DKT Philippines have almost no donor funding)."
+		},
+		{
+			"id": "ref-rg11",
+			"marker": "11",
+			"html": "Calculations are done separately for married and unmarried users; though the CGA2019 only reports on the aggregated totals not by marital status. The average annual change analysis was limited to countries with a survey after 2005 to reflect more recent shifts in method mix; a total of 270 individual surveys feed into the change analysis. Patterns of change for married method mix are calculated for sub-regions (e.g. Southern Asia, Eastern Africa), while for unmarried method mix aggregate regions (e.g. Asia, Africa) are used due to more limited data availability. "
+		},
+		{
+			"id": "ref-rg12",
+			"marker": "12",
+			"html": "However, in the case of private sector consumption costs some of these factors may be inherently included in the price that the client is ultimately charged at the point of sale. "
+		},
+		{
+			"id": "ref-rg13",
+			"marker": "13",
+			"html": "Jacqueline E. Darroch, Singh S., Weissman E. Adding it Up: The Costs and Benefits of Investing in Sexual and Reproductive Health in 2014. Guttmacher Institute, 2016."
+		},
+		{
+			"id": "ref-rg14",
+			"marker": "14",
+			"html": "RHSC LAC survey of Honduras, El Salvador, Guatemala, Nicaragua, Mexico, Paraguay, Bolivia, Peru. "
+		},
+		{
+			"id": "ref-rg15",
+			"marker": "15",
+			"html": "This was calculated as the difference between the public sector price and the private subsidized price for each product; therefore, sharing the total cost between the two sectors. In total $44.2 million in subsidy costs was allocated into public sector consumption costs in 2018. "
+		},
+		{
+			"id": "ref-rg16",
+			"marker": "16",
+			"html": "Data sources include: IQVIA, FP Watch, SHOPS Plus Private Sector Assessments, Track20 M&E Officer retail audits (unpublished), DHS analysis on prices paid by private sector users, PMA2020 analysis on prices paid by private sector users. "
+		},
+		{
+			"id": "ref-rg17",
+			"marker": "17",
+			"html": "Since most data sources do not distinguish between the prices of subsidized and non-subsidized products, any price point that was below the public sector price was considered to be subsidized. This assumption may not hold true in some specific situations but will generally capture the variation in price points between subsidized and non-subsidized products. Where multiple data sources existed, the average price across sources was used. "
+		},
+		{
+			"id": "ref-rg18",
+			"marker": "18",
+			"html": "This was done for sterilization, and other methods due to limited data availability. For condoms there is large variation in price across brands and it is difficult to accurately capture this variation; therefore, using a single price for all condom consumption was the more conservative approach. "
+		},
+		{
+			"id": "ref-rg19",
+			"marker": "19",
+			"html": "&ldquo;Other&rdquo; methods of contraception include, where data are available, female condom, emergency contraception, Standard Days Method, LAM, spermicide, and other barrier methods."
+		},
+		{
+			"id": "ref-rg20",
+			"marker": "20",
+			"html": "The CGA only quantities condoms used primarily for contraception; therefore, estimates do not represent the full condom market. For current spending estimates, only 30% of spending on condom procurement is included as the remainder is allocated to HIV/STI related spending (based on UNFPA Supplies guidance). "
+		},
+		{
+			"id": "ref-rg21",
+			"marker": "21",
+			"html": "Procurement volume may reflect a number of factors in addition to user consumption, such as the volume necessary to fill supply pipelines and maintain adequate inventory levels from central warehouses to individual service delivery points. Procurement volumes may take into account the volume of supplies already present or on order, inventory holding policies along the supply chain, and wastage or &ldquo;leakage&rdquo; of supplies at various levels. "
+		},
+		{
+			"id": "ref-main1",
+			"marker": "1",
+			"html": "The group of 135 low- and middle-income countries excludes China and Venezuela, both of which are categorized by the World Bank as middle-income."
+		},
+		{
+			"id": "ref-main2",
+			"marker": "2",
+			"html": "<a href=“https://www.cgdev.org/publication/initial-estimation-size-health-commodity-markets-low-and-middle-income-countries”>An Initial Estimation of the Size of Health Commodity Markets in Low- and Middle-Income Countries.</a>"
+		},
+		{
+			"id": "ref-main3",
+			"marker": "3",
+			"html": "Gaps are calculated within each GNI group then summed to the total. Since there are different patterns of growth in each GNI group as well as different patterns of current spending, the overall shares of the gap across sector differ to the current share of spending."
+		},
+		{
+			"id": "ref-main4",
+			"marker": "4",
+			"html": "Because our analysis reflects commodities sold or distributed by NGOs and SMOs, we are largely capturing the more traditional model of subsidizing commodities. But subsidies can be applied in different ways, even if they are not captured here."
+		},
+		{
+			"id": "ref-main5",
+			"marker": "5",
+			"html": "These averages were only used when country specific data was unavailable."
+		},
+		{
+			"id": "ref-main6",
+			"marker": "6",
+			"html": "At the country level, our projections for changes in the method mix of users are informed by recent patterns of change at the regional level, and not by country-specific policies or implementation plans, which could also influence method mix shifts. "
+		},
+		{
+			"id": "ref-main7",
+			"marker": "7",
+			"html": "While contraceptive implants are not currently provided in India regional shifts in method mix would suggest very low levels of implant use by 2025 (2% of the method mix)."
+		},
+		{
+			"id": "ref-box1-3",
+			"marker": "&dagger;",
+			"html": "See Bahamondes, Luis, Fernandes, Arlete, & Monteiro, Ilza. (2017). Barriers to Implementing and Consolidating a Family Planning Program that would meet Brazilian Needs. Revista Brasileira de Ginecologia e Obstetrícia, 39(8), 373&ndash;375. <a href=\"https://dx.doi.org/10.1055/s-0037-1604423\">https://dx.doi.org/10.1055/s-0037-1604423</a> and Sora Yasri, Viroj Wiwanitkit. (2017) Contraceptive sales after the Zika epidemic. The European Journal of Contraception & Reproductive Health Care 22:6, pages 479&ndash;479. <a href=\"https://www.tandfonline.com/doi/full/10.1080/13625187.2017.1397623\">https://www.tandfonline.com/doi/full/10.1080/13625187.2017.1397623</a>"
+		}
+	]
+}

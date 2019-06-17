@@ -1,0 +1,72 @@
+
+.figure-heading, .table-heading {
+	display: flex;
+	align-items: baseline;
+}
+
+.table-heading {
+	padding: $spacing;
+}
+
+.figure-id, .table-id {
+	font-size: 1rem;
+	font-weight: $light;
+	color: $mdblue;
+}
+
+.figure-title-block, .table-title-block {
+	padding-left: $spacing/2;
+}
+
+.figure-title, .table-title {
+	text-transform: none;
+}
+
+.figure-subtitle, .table-subtitle {
+	text-transform: none;
+	font-weight: $light;
+	font-style: italic;
+}
+
+
+
+// ********** FIGURES ********** //
+
+.figure {
+	padding: $spacing;
+	margin: 0;
+}
+
+.figure-small {
+		//width: 100vw;
+		height: 35vh;
+}
+
+.figure-large {}
+
+.figure-freeform {}
+
+.figure-stacked-column {}
+
+.figure-stacked-bar {}
+
+
+// *********** BOXES ********** //
+
+.figure-box {
+	outline: 1px solid $gray5;
+	margin: $spacing*2 0;
+}
+
+.figure-box-small {}
+// ********** TABLES ********** //
+
+
+.table {
+	outline: 1px solid $ltblue;
+    margin: $spacing 0;
+}
+
+.table-small {}
+
+.table-large {}

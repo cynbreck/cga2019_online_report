@@ -1,0 +1,49 @@
+
+
+html {
+	@include fluid-type(font-size, 480px, 1900px, 14px, 18px);
+}
+
+body {
+	line-height: $body-line-height;
+	font-family: $source-sans;
+	font-weight: $light;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: $heading-line-height;
+}
+
+p {
+	padding-top: $spacing/2;
+	font-size: 1rem;
+}
+
+h1 {
+	font-size: $xxl-type;
+}
+
+h2 {
+	font-size: $xl-type;
+}
+
+h3 {
+	font-size: $base-type;
+}
+
+h4 {
+	font-size: $base-type;
+}
+
+h5 {
+	font-size: $sm-type;
+}
+
+h6 {
+	font-size: $xs-type;
+}

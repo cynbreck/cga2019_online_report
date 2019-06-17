@@ -1,0 +1,77 @@
+//Major Second Scale (1.125)
+// 6.583rem
+// 5.852rem
+// 5.202rem
+// 4.624rem
+// 4.11rem
+// 3.653rem
+// 3.247rem
+// 2.887rem
+// 2.566rem
+// 2.281rem
+// 2.027rem
+// 1.802rem
+// 1.602rem
+// 1.424rem
+// 1.266rem
+// 1.125rem
+// 1rem
+// 0.889rem
+// 0.79rem
+// 0.702rem
+// 0.624rem
+
+// ******** TYPOGRAPHY ******** //
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,300i,400,400i,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,600,700&display=swap');
+
+$source-sans: 	'Source Sans Pro', sans-serif;
+$plex: 			'IBM Plex Mono', sans-serif;
+
+$thin:		200; //Source Sans Pro
+$light: 	300; //Source Sans Pro (+Italic), IBM Plex Mono
+$book: 		400; //Source Sans Pro (+Italic), IBM Plex Mono
+$medium: 	600; //Source Sans Pro, IBM Plex Mono
+$bold: 		700; //Source Sans Pro, IBM Plex Mono
+
+$xxl-type: 2.887rem;
+$xl-type: 1.802rem;
+$lg-type: 1.266rem;
+$md-type: 1.125rem;
+$base-type: 1rem;
+$sm-type: 0.889rem;
+$xs-type: 0.702rem;
+
+$body-line-height: 1.5;
+$heading-line-height: 1.125;
+
+
+// ******* LAYOUT ******* //
+$spacing: 1.5rem;
+
+$breakpoint-sm: 660px;
+$breakpoint-md: 960px;
+
+
+
+// ******* COLORS ******** //
+
+$ltblue: 	#6396BC;
+$mdblue: 	#0067ab;
+$dkblue: 	#00193F;
+
+$white:		#ffffff;
+$gray1: 	#fafafa;
+$gray2:		#f3f3f3;
+$gray3:		#e5e5e5;
+$gray4: 	#bababa;
+$gray5: 	#888888;
+$gray6: 	#464646;
+$black: 	#000000;
+
+$green: 	#87dca9;
+$teal: 		#449898;
+$purple: 	#cb8798;
+$orange: 	#FF8F45;
+$yellow: 	#C9AA1F;
+$red: 		#FF5445;
