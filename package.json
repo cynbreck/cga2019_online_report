@@ -9,7 +9,7 @@
 	"author": "Cynthia Suzanne Breckenridge <cynthia.breckenridge@gmail.com>",
 	"license": "MIT",
 	"devDependencies": {
-		"browser-sync": "^2.26.7",
+		"browser-sync": "^2.27.10",
 		"css-declaration-sorter": "^4.0.1",
 		"cssnano": "^4.1.10",
 		"gulp": "^4.0.2",
